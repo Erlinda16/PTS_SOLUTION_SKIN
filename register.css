@@ -1,0 +1,79 @@
+/* Mengatur latar belakang halaman */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #faebd7; /* Warna background keseluruhan */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container form login */
+.login-container {
+    background-color: #fef5e7; /* Warna latar belakang form */
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 40px 30px;
+    width: 350px;
+    text-align: center;
+}
+
+/* Styling untuk logo */
+.login-container img {
+    width: 100px; /* Ukuran logo */
+    margin-bottom: 20px;
+}
+
+/* Title "LOGIN" */
+.login-container h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #8B4513; /* Warna coklat tua untuk judul */
+}
+
+/* Styling untuk label email dan password */
+.login-container label {
+    font-weight: bold;
+    color: #8B4513; /* Warna coklat tua untuk label */
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+/* Styling untuk input email dan password */
+.login-container input[type="email"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Styling untuk tombol login */
+.login-container button[type="submit"] {
+    background-color: #CCB67F; /* Warna coklat tua */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.login-container button[type="submit"]:hover {
+    background-color: #9b8a60; /* Warna lebih terang saat hover */
+}
+
+/* Responsif untuk tampilan layar lebih kecil */
+@media (max-width: 600px) {
+    .login-container {
+        width: 100%;
+        padding: 20px;
+    }
+}
